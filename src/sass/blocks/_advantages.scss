@@ -1,0 +1,40 @@
+.advantages {
+    padding: 69px 0 98px 0;
+    background-color: $color-white;
+    .title {
+        text-align: center;
+        font-size: 30px;
+    }
+    &__wrapper {
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-width: 238px;
+    }
+    
+    &__title {
+        font-size: 18px;
+        margin-top: 38px;
+        font-weight: bold;
+    }
+    &__text {
+        width: 243px;
+        height: 64px;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 25px;
+        a {
+            color: $color-red;
+            text-decoration: underline;
+
+        }
+    }
+    
+    
+}

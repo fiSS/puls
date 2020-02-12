@@ -5,11 +5,11 @@
     .header {
         display: flex;
         flex-direction: column;
-    }
+        }
     }
     .header__logo {
         display: none;
-    }
+        }
     .header__official {
         font-size: 18px;
         span {
@@ -20,10 +20,10 @@
     }
     .header__contacts {
         margin: 0 auto;
-    }
+        }
     .header__phone {
         margin-top: 10px;
-    }
+        }
     .header__contacts {
         button {
             font-size: 11px;
@@ -32,54 +32,78 @@
     }
     .promo__wrapper {
         margin-top: 45px;
-    }
+        }
     .promo__header {
         display: inline-block;
         font-size: 30px;
         margin: 0 auto;
-    }
+        }
     .promo__subheader {
         margin-top: 10px;
-    }
+        }
     .promo__icons {
         flex-direction: column;
         justify-content: space-between;
         width: 100px;
         margin: 0 auto;
         
-    }
+        }
     .promo__icon {
         margin-top: 10px;
         font-size: 19px;
-    }
+        }
     .button {
         width: 75%;
         margin: 0 auto;
         height: 30px;
         margin-top: 20px;
-    }
+        }
     .promo__link {
         margin: 0 auto;
         margin-top: 35px;
-    }
+        }
 
     .advantages {
         padding: 30px 0;
-    }
+        }
     h2 {
         font-size: 24px;
-    }
+        }
     .advantages__wrapper {
         display: flex;
         flex-direction: column;
         margin-top: 0;
-    }
+        }
     .advantages__item {
         margin-top: 40px;
-    }
+        }
     .advantages__text {
         margin-top: 0;
+        }
+    .consultation {
+        padding: 10px 10px;
+        .title {
+            padding: 5px 10px;
+            font-size: 16px;
+            font-weight: 500;
+            text-align: center;
+        }
+        .consultation__description {
+            padding: 15px 10px;
+            font-weight: 500;
+            font-size: 14px;
+            text-align: center;
+        }
+        .feed-form {
+            width: 250px;
+            height: 200px;
+            margin: 0 auto;
+        }
+        .button_submit {
+            font-size: 12px;
+        }
     }
+
 }
 @media(max-width: 767px) {
     .promo {
@@ -113,6 +137,14 @@
         margin-top: 10px;
         font-size: 12px;
     }
+    .consultation {
+        padding: 10px 10px;
+        min-height: auto;
+        .container {
+            padding: 20px 20px;
+        }
+        
+    }
 }
 
 @media(max-width: 991px) {
@@ -138,5 +170,10 @@
     .promo__link {
         margin-right: 15px;
     }
-
+    .consultation {
+        .container {
+            padding: 20px 20px;
+        }
+    }
+    
 }

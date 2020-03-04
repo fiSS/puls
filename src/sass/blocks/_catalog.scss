@@ -1,0 +1,32 @@
+.catalog {
+    padding-bottom: 100px;
+    &__tabs {
+        margin-top: 70px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__tab {
+        width: 220px;
+        height: 50px;
+        border: 2px solid $color-grey;
+        color: $color-grey;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 48px;
+        transform: skewX(-25deg);
+        margin: 0 5px;
+        
+
+        div {
+            transform: skewX(25deg);
+        }
+        &_active {
+            color: $color-white;
+            background-color: $color-red;
+        }
+    }
+}

@@ -3,7 +3,7 @@ let slideIndex = 1, //переменная отвечает за тот слай
     slides = document.querySelectorAll('.slider__item'),
     prev = document.querySelector('.slider__prev'),
     next = document.querySelector('.slider__next'),
-    dotsWrap = document.querySelector('.slider-dots'),
+    dotsWrap = document.querySelector('.slider__dots'),
     dots = document.querySelectorAll('.dot');
 
 showSlides(slideIndex);

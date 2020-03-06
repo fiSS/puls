@@ -1,3 +1,108 @@
+@media(max-width: 1199px) {
+    .slider {
+        .slider__prev {
+            margin-left: 110px;
+        }
+    }
+
+}
+
+@media(max-width: 991px) {
+    .header {
+        justify-content: space-around;
+    }
+    .promo__header {
+        margin: 0 auto;
+    }
+    .promo__subheader {
+        margin: 0 auto;
+        padding-top: 5px;
+    }
+    .promo__icons {
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+    .button_main {
+        width: 250px;
+        height: 45px;
+        margin-right: 10px;
+    }
+    .promo__link {
+        margin-right: 15px;
+    }
+    .consultation {
+        .container {
+            padding: 20px 20px;
+        }
+    }
+    .slider {
+        .slider__prev {
+            margin-left: 50px;
+        }
+        .slider__next {
+            margin-left: 900px;
+        }
+    }
+    
+}
+
+@media(max-width: 767px) {
+    .promo {
+        padding: 20px 20px;
+    }
+    .header {
+        justify-content: space-around;
+    }
+    .promo__header {
+        margin: 0 auto;
+    }
+    .promo__subheader {
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+    .promo__icons {
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+    .button_main {
+        width: 250px;
+        height: 45px;
+    }
+    .advantages {
+        padding: 35px 0 65px 0;
+    }
+    .advantages__title {
+        margin-top: 15px;
+    }
+    .advantages__text {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .consultation {
+        padding: 12px 12px;
+        min-height: auto;
+        .container {
+            padding: 20px 20px;
+        }
+        
+    }
+    .slider {
+        padding: 50px 0;
+        .slider__item {
+            img {
+                width: 70%;
+                height: 350px;
+            }
+        }
+        .slider__prev {
+            margin: -165px 2px 250px 30px;
+        }
+        .slider__next {
+            margin: -165px 57px 60px 700px;
+        }
+    }
+}
+
 @media(max-width: 575px) {
     .promo {
         background: url(../img/mainMob.jpg) center (center/cover) no-repeat;
@@ -103,77 +208,39 @@
             font-size: 12px;
         }
     }
-
-}
-@media(max-width: 767px) {
-    .promo {
-        padding: 20px 20px;
-    }
-    .header {
-        justify-content: space-around;
-    }
-    .promo__header {
-        margin: 0 auto;
-    }
-    .promo__subheader {
-        padding-top: 15px;
-        margin: 0 auto;
-    }
-    .promo__icons {
-        padding-top: 15px;
-        margin: 0 auto;
-    }
-    .button_main {
-        width: 250px;
-        height: 45px;
-    }
-    .advantages {
-        padding: 35px 0 65px 0;
-    }
-    .advantages__title {
-        margin-top: 15px;
-    }
-    .advantages__text {
-        margin-top: 10px;
-        font-size: 12px;
-    }
-    .consultation {
-        padding: 12px 12px;
-        min-height: auto;
-        .container {
-            padding: 20px 20px;
+    .slider {
+        padding: 40px 10px;
+        .slider__item {
+            img {
+                width: 260px;
+                height: 180px;
+            }
         }
-        
-    }
-}
-
-@media(max-width: 991px) {
-    .header {
-        justify-content: space-around;
-    }
-    .promo__header {
-        margin: 0 auto;
-    }
-    .promo__subheader {
-        margin: 0 auto;
-        padding-top: 5px;
-    }
-    .promo__icons {
-        margin: 0 auto;
-        padding-top: 25px;
-    }
-    .button_main {
-        width: 250px;
-        height: 45px;
-        margin-right: 10px;
-    }
-    .promo__link {
-        margin-right: 15px;
-    }
-    .consultation {
-        .container {
-            padding: 20px 20px;
+        .slider__prev {
+            display: none;
+        }
+        .slider__next {
+            display: none;
+        }
+        .slider__dots {
+            width: 200px;
+            height: 20px;
+            display: flex;
+            justify-content: space-between;
+            margin: 40px auto;
+            .dot {
+                width: 40px;
+                height: 40px;
+                background-color: $color-black;
+                border-radius: 50%;
+                cursor: pointer;            
+            }
+            .dot-active {
+                width: 40px;
+                height: 40px;
+                background-color:$color-red;
+            }
         }
     }
-    
+
 }

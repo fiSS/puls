@@ -12,7 +12,7 @@
 "javascript.updateImportsOnFileMove.enable": "always",
 "explorer.confirmDragAndDrop": false,
 "[javascript]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
 },
 "workbench.iconthem": "vscode-icons",
 "liveSassCompile.settings.formats":[

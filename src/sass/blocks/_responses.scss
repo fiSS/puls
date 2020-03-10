@@ -1,0 +1,31 @@
+.responses {
+    min-height: 525px;
+    padding: 52px 0 35px 0;
+    position: relative;
+    &__wrapper {
+        min-width: 1100px;
+        margin: 70px 230px;
+    }
+    &__img {
+        position: absolute;
+        width: 179px;
+        height: 179px;
+        background: url(../img/feed_1.png) center (center/cover) no-repeat;
+    }
+    &__header {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__item{
+        margin: 70px auto;
+        width: 675px;
+        font-weight: 400; span {
+            font-weight: 900;
+        }
+        
+    }
+}

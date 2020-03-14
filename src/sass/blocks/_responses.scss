@@ -4,26 +4,16 @@
     position: relative;
     &__wrapper {
         min-width: 1100px;
-        margin: 70px 230px;
+        margin: 70px 150px;
     }
-    &__img1 {
+    &__img {
         position: absolute;
-        width: 179px;
-        height: 179px;
-        background: url(../img/feed_1.png) center (center/cover) no-repeat;
+        img {
+            width: 169px;
+            height: 169px;
+        }
         }       
-    &__img2 {
-        position: absolute;
-        width: 179px;
-        height: 179px;
-        background: url(../../img/feed_2.png) center (center/cover) no-repeat;
-    }
-    &__img3 {
-        position: absolute;
-        width: 179px;
-        height: 179px;
-        background: url(../../img/feed_3.png) center (center/cover) no-repeat;
-    }
+    
     &__header {
         font-size: 20px;
         font-weight: bold;

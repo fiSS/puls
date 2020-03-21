@@ -25,7 +25,7 @@
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+74999228974" class="header__phone">+7 (499) 922-89-74</a>
-                    <button class="button">заказать звонок</button>
+                    <button data-modal="consultation" class="button">заказать звонок</button>
                 </div>
             </header>
             <div class="promo__wrapper">
@@ -51,7 +51,7 @@
                     </div>
                 </div>
 
-                <div class="button button_main">заказать кОНСУЛЬТАЦИЮ</div>
+                <div class="button button_main" data-modal="consultation">заказать кОНСУЛЬТАЦИЮ</div>
                 <div class="promo__link">
                     или
                     <a href="">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -535,7 +535,7 @@
 
     <footer class="footer">
         <!-- <div class="footer__map"></div> -->
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430307459392!2d37.644807315980486!3d55.76839799825644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1584186976434!5m2!1sru!2sru" width="100%" height="630" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <iframe class="footer_maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2244.430307459392!2d37.644807315980486!3d55.76839799825644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1584186976434!5m2!1sru!2sru" width="100%" height="630" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
         <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7fa9648041451bb66b0356a76ec9199c1ca3e75f76dc2ce18e7dcb8f0b37ebac&amp;source=constructor" width="100%" height="630" frameborder="0"></iframe> -->
 
@@ -551,6 +551,38 @@
             </div>
         </div>
     </footer>
+
+    <div class="overlay">
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Просто заполните форму заявки</div>
+            <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+                <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
+            </form>
+        </div>
+
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Ваш заказ:</div>
+            <div class="modal__descr">пульсометр polar FT1</div>
+            <form class="feed-form feed-form_mt25" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваш E-mail" type="email">
+                <button class="button button_submit">купить</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за вашу заявку</div>
+            <div class="modal__descr">Наш менеджер свяжется с вами в ближайшее время!</div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
     <!-- <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script> -->

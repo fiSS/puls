@@ -11,6 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover {
+        background-color: orange;
+        color: $color-black;
+        transition: 0.5s all;
+        outline: none;
+    }
     &_main {
         width: 300px;
         height: 50px;

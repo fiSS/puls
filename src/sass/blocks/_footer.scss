@@ -42,19 +42,11 @@
         margin: 0 15px;
         img {
             height: 27px;
-        }:hover {
-            width: 70px;
-            height: 70px;
-            background-color: $color-whiteGrey;
-            border-radius: 100%;
-            -webkit-transition: 0.5s all;
-            transition: 0.5s all;
-        }
-        
+        } 
+     } 
     }
     &__social {
         display: flex;
         justify-content: center;
         align-items: center;
     }
-}

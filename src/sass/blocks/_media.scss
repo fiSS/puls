@@ -194,7 +194,9 @@
         font-size: 19px;
         }
     .button {
-        width: 75%;
+        width: 72%;
+        font-size: 12px;
+        font-weight: bold;
         margin: 0 auto;
         height: 30px;
         margin-top: 20px;
@@ -326,7 +328,42 @@
     }
 
     .footer {
-        
+        &__addr {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        &__phone {
+            font-size: 18px;
+        }
     }
 
+    .overlay {
+        .modal {
+            height: 300px;
+            width: 200px;
+            padding: 10px;
+            &__subtitle {
+                font-size: 15px;
+            }
+            &__descr {
+                font-size: 12px;
+                margin-top: 10px;
+            }
+            .feed-form {
+                input {
+                    width: 180px;
+                }
+            }
+        }
+        .button_submit {
+            margin: 0;
+            width: 60%;
+        }
+       
+    }
+    
 }
+    
+
+

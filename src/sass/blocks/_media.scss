@@ -326,17 +326,30 @@
         }
         
     }
-
     .footer {
+        &__info {
+            padding: 15px 15px;
+            width: 93%;
+            height: 200px;
+        }
         &__addr {
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 20px;
         }
         &__phone {
-            font-size: 18px;
+            font-size: 28px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                width: 50%;
+            }
         }
     }
+
+
 
     .overlay {
         .modal {

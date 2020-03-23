@@ -1,4 +1,4 @@
-//native js
+//slider native js
 let slideIndex = 1, //переменная отвечает за тот слайд который показывается в данный момент
     slides = document.querySelectorAll('.slider__item'),
     prev = document.querySelector('.slider__prev'),
@@ -93,6 +93,9 @@ $('.catalog-item__back').each(function(i) {
             $('.overlay, #order').fadeIn('slow');
         });
     });
+    
+    //mask input number
+    $("input[name=phone]").mask("+7(999) 999-99-99");
 
 });
 

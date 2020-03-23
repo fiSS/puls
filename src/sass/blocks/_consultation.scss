@@ -2,9 +2,12 @@
     min-height: 680px;
     padding: 100px 0 92px 0;
     background: url('../img/consultation.jpg') center (center/cover) no-repeat;
-    &__description {
+    &__descr {
         color: $color-white;
         font-size: 20px;
         font-weight: 500;
     }
-}
+  }
+  label.error {
+      color: white;
+  }

@@ -127,6 +127,8 @@ $('.catalog-item__back').each(function(i) {
         return false;
     });
 
+    new WOW().init();
+
 });
 
 

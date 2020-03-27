@@ -76,6 +76,7 @@ $('.catalog-item__back').each(function(i) {
         $('.catalog-item__content').eq(i).toggleClass('catalog-item__content_active');
         $('.catalog-item__list').eq(i).toggleClass('catalog-item__list_active');
     });
+});
 
     //modal
     //открывам модал
@@ -87,8 +88,8 @@ $('.catalog-item__back').each(function(i) {
         $('.overlay, #conultation, #thanks, #order').fadeOut('slow');
     });
     
-    $('.button_mini').each(function(i){
-        $(this).on('click', function(){
+    $('.button_mini').each(function(i) {
+        $(this).on('click', function() {
             $('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
             $('.overlay, #order').fadeIn('slow');
         });
@@ -121,15 +122,16 @@ $('.catalog-item__back').each(function(i) {
         }
     });
 
-    $("a[href^='#']").click(function(){
+    $("a[href^='#up']").click(function(){
         const _href = $(this).attr("href");
         $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
         return false;
     });
 
+    //smoth scrolling, необходимо к элементу на странице добавить class wow
     new WOW().init();
 
-});
+
 
 
 

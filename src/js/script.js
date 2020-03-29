@@ -114,6 +114,7 @@ $('.catalog-item__back').each(function(i) {
     });
 
     //smooth scroll and pageUp
+    //1 pageup
     $(window).scroll(function(){
         if ($(this).scrollTop() > 1600) {
             $('.pageup').fadeIn();
@@ -128,7 +129,7 @@ $('.catalog-item__back').each(function(i) {
         return false;
     });
 
-    //smoth scrolling, необходимо к элементу на странице добавить class wow
+    //smoth scrolling, необходимо к элементу на странице добавить class wow(плавно выезжают элементы при скролле)
     new WOW().init();
 
 

@@ -1,3 +1,3 @@
 # пульсометр
 
-https://fiss.github.io./
+http://fsivanov.info/pulse/
